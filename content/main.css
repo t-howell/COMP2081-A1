@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash|Delius+Unicase|Fascinate+Inline|Nixie+One');
+/* font-family: 'Nixie One', cursive;
+font-family: 'Cherry Swash', cursive;
+font-family: 'Delius Unicase', cursive;
+font-family: 'Fascinate Inline', cursive; */
+
+/*Content font */
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+/*Heading font */
+@import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
+body {
+    background-color: #333;
+    font-family: 'Questrial', sans-serif; 
+}
+
+header {
+    width:100%;
+    background-color: #111;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Chelsea Market', cursive;
+}
+ul#social {
+    list-style: none;
+}
+ul#social li a {
+    color: orange;
+}
+h1 {
+    font-family: 'Cherry Swash', cursive;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 50px;
+    color: #fff;
+}
+
+ul#mainNav {
+    padding-bottom: 1.3em;
+}
+ul#mainNav li {
+    border-right: 1px solid darkorange;
+    font-size: 1.2em;
+    
+}
+ul#mainNav li a {
+    color: #fff;
+}
+ul#mainNav li:last-of-type {
+    border: none;
+}
+#section1 {
+    background-color: #333;
+    padding: 2em;
+    color: #fff;
+    border: 1px solid darkorange;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.card {
+    border: none;
+}
+.card a {
+    color: #fff;
+}
+.card a:hover {
+    color: #FFD493;
+}
+#section2 {
+    background-color: #fff;
+    color: #333;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 25px;
+}
+
+#section3 {
+    padding: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: #fff;
+    border: 1px solid darkorange;
+    line-height: 1.6em;
+}
+img#heritageImg {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+footer {
+    background-color: #111;
+    height: 100%;
+    padding-top: 1em;
+    text-align: center;
+    color: #fff;
+}
