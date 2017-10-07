@@ -109,6 +109,21 @@ img#heritageImg {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+/* Back to Top Button */
+button#topBtn {
+    display: none;
+    position: fixed;
+    background-color: rgba(255, 132, 0, 0.75);
+    color: #fff;
+    border: none;
+    border-radius: 75px;
+    font-size: 2em;
+    padding: 8px 20px;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+}
+
 /* Footer Styles */
 footer {
     background-color: #111;
